@@ -21,7 +21,7 @@ RUN sudo apt-get install wget \
     && sudo python3.5 get-pip.py
 
 #Add musicbot directory
-ADD musicbot /musicbot
+ADD . /musicbot
 WORKDIR /musicbot
 
 #Install PIP dependencies
